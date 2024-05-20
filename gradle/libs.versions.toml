@@ -1,0 +1,16 @@
+[versions]
+kotlin-version = "1.9.21"
+agp-version = "7.3.0"
+compose-version = "1.6.2"
+androidx-room = "2.7.0-alpha02"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp.version" }
+android-library = { id = "com.android.library", version.ref = "agp.version" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin.version" }
+room = { id = "androidx.room", version.ref = "androidx-room" }
+
+[libraries]
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version = "1.6.1" }
+androidx-core = { module = "androidx.core:core-ktx", version = "1.10.1" }
+androidx-activity-compose = "androidx.activity:activity-compose:1.7.2"
